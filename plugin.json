@@ -1,11 +1,10 @@
 {
-  // comments
-  "id": "acode.plugin.template",
-  "name": "acode plugin template",
+  "id": "x.always.welcome.page",
+  "name": "Always Welcome Page",
   "version": "0.0.1",
 
   "entry": "src/main.js",
-  "output": "dist/Template.js",
+  "output": "dist/AlwaysWelcomePage.js",
   "zip": "{id}-{version}.acodeplugin",
 
   "readme": "readme.md",
@@ -16,20 +15,19 @@
   "files": [
     "./assets"
   ],
-  "Keywords": [
-    "Template",
-    "Plugin"
+  "keywords": [
+    "utility",
+    "welcome",
+    "tab"
   ],
 
   "price": 0,
   "minVersionCode": 965,
 
-  "repository": "REPO_URL",
+  "repository": "https://github.com/overskul/acode-always-welcome-page",
   "author": {
-    "name": "USER_NAME",
-    "email": "EMAIL",
-    "url": "URL",
-    "github": "USER_NAME"
+    "name": "overskul",
+    "github": "overskul"
   },
 
   "contributors": []
