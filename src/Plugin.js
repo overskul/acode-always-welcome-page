@@ -104,11 +104,11 @@ export default class AlwaysWelcomePage {
       ],
       cb: (key, value) => {
         if (key === ONLY_WHEN_OPEN_APP)
-          this.settings.showOnlyWhenOpenApp = !this.settings.showOnlyWhenOpenApp;
+          this.settings.showOnlyWhenOpenApp = value;
         if (key === AUTO_CLOSE)
-          this.settings.autoclose           = !this.settings.autoclose;
+          this.settings.autoclose           = value;
 
-        appSettings.update();
+        appSettings.update(false);
       }
     };
   }
